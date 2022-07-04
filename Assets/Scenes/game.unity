@@ -13297,7 +13297,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   panSpeed: 30
-  panBorderThickness: 10
+  panBorderThickness: 5
+  scrollSpeed: 5
+  minY: 10
+  maxY: 80
 --- !u!1001 &1783051867
 PrefabInstance:
   m_ObjectHideFlags: 0
