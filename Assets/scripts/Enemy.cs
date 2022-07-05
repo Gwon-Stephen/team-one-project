@@ -31,7 +31,11 @@ public class Enemy : MonoBehaviour
             return;
         }
 
-        wavepointIndex++;
+        if(wavepointIndex <= 20)
+        {
+            wavepointIndex++;
+        }
+
         target = Waypoints.points[wavepointIndex];
     }
 }
