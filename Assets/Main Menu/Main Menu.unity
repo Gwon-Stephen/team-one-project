@@ -2246,7 +2246,7 @@ GameObject:
   - component: {fileID: 1821569024}
   - component: {fileID: 1821569023}
   m_Layer: 5
-  m_Name: Fifty
+  m_Name: Biota
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2291,7 +2291,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 50 Shades of Green
+  m_text: Biota Towers
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
