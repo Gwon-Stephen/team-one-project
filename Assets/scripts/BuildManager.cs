@@ -35,6 +35,7 @@ public class BuildManager : MonoBehaviour
         
         GameObject effect = (GameObject)Instantiate(buildEffect,node.GetBuildPosition(), Quaternion.identity);
         Destroy(effect, 5f);
+        
         Debug.Log("Turret build! Money left: " + PlayerStats.Money);
     }
 

@@ -10,7 +10,7 @@ public class CameraController : MonoBehaviour
     public float minY = 10f;
     public float maxY = 80f;
 
-    private bool doMovement = true;
+    private bool doMovement = false;
 
     // Update is called once per frame
     void Update()
