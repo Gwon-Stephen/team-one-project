@@ -11,7 +11,8 @@ public class Node : MonoBehaviour
 
     private Renderer rend;
 
-    private GameObject turret;
+    [Header("Optional")]
+	public GameObject turret;
 
     BuildManager buildManager;
 
@@ -23,18 +24,14 @@ public class Node : MonoBehaviour
         buildManager = BuildManager.instance;
     }
 
-    void Update()
-    {
-        if(Input.GetKeyDown("1"))
-        {
-            Debug.Log("Standard Turret Purchased");
-            buildManager.SetTurretToBuild(buildManager.standardTurretPrefab);
-        }
-    }
+    public Vector3 GetBuildPosition ()
+	{
+		return transform.position + positionOffset;
+	}
 
     void OnMouseDown()
     {
-        if(buildManager.GetTurretToBuild() == null)
+        if (!buildManager.CanBuild)
         {
             return;
         }
@@ -46,9 +43,7 @@ public class Node : MonoBehaviour
             return;
         }
 
-        //Build turret :DDDDDDDDDDD
-        GameObject turretToBuild = buildManager.GetTurretToBuild();
-        turret = (GameObject)Instantiate(turretToBuild, transform.position + positionOffset, transform.rotation);
+       buildManager.BuildTurretOn(this);
     }
     
     void OnMouseEnter ()
@@ -58,7 +53,7 @@ public class Node : MonoBehaviour
             return;
         }
 
-        if(buildManager.GetTurretToBuild() == null)
+        if (!buildManager.CanBuild)
         {
             return;
         }
