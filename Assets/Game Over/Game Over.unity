@@ -454,7 +454,7 @@ GameObject:
   - component: {fileID: 1053041028}
   - component: {fileID: 1053041027}
   m_Layer: 5
-  m_Name: Quit
+  m_Name: Text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -469,7 +469,7 @@ RectTransform:
   m_GameObject: {fileID: 1053041025}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 0.38105243, z: 1}
   m_Children: []
   m_Father: {fileID: 1455877385}
   m_RootOrder: 0
@@ -499,9 +499,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'Quit
-
-'
+  m_text: Return to Menu
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
   m_sharedMaterial: {fileID: 2164040, guid: 5302535af1044152a457ed104f1f4b91, type: 2}
@@ -674,7 +672,7 @@ GameObject:
   - component: {fileID: 1455877387}
   - component: {fileID: 1455877386}
   m_Layer: 5
-  m_Name: QuitButton
+  m_Name: ReturnButton
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -689,7 +687,7 @@ RectTransform:
   m_GameObject: {fileID: 1455877384}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1, y: 1.9903264, z: 1}
   m_Children:
   - {fileID: 1053041026}
   m_Father: {fileID: 1901559187}
