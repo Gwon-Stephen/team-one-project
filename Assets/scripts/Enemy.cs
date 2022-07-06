@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Enemy : MonoBehaviour
 {
@@ -65,11 +66,19 @@ public class Enemy : MonoBehaviour
 
     void EndPath ()
     {
+
         if(PlayerStats.Lives > 0)
         {
             PlayerStats.Lives--;
         }
+
+        if(PlayerStats.Lives == 0)
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        }
         
         Destroy(gameObject);
+
+        
     }
 }
