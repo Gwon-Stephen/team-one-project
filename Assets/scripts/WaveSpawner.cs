@@ -32,8 +32,6 @@ public class WaveSpawner : MonoBehaviour
 
     IEnumerator SpawnWave()
     {
-        //Enemy.health = health + (25 * waveIndex);
-        //Enemy.speed = speed + waveIndex;
         waveIndex++;
         for(int i = 0; i < waveIndex; i++)
         {
@@ -45,5 +43,7 @@ public class WaveSpawner : MonoBehaviour
     void SpawnEnemy()
     {
         Instantiate(enemyPrefab, spawnPoint.position, spawnPoint.rotation);
+        //enemyPrefab.GetComponent<Enemy>().health = health + (25 * waveIndex);
+        //enemyPrefab.GetComponent<Enemy>().speed = speed + waveIndex;
     }
 }
