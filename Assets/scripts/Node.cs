@@ -32,6 +32,10 @@ public class Node : MonoBehaviour
 
     void OnMouseDown()
     {
+        if(EventSystem.current.IsPointerOverGameObject())
+        {
+            return;
+        }
         if (!buildManager.CanBuild)
         {
             return;
