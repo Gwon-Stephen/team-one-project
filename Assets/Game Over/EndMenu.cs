@@ -16,8 +16,7 @@ public void PlayGame()
 
 public void QuitGame()
     {
-        Debug.Log("Quit");
-        Application.Quit();
+    SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 2);
     }
 
 }
