@@ -32,8 +32,9 @@ public class WaveSpawner : MonoBehaviour
 
     IEnumerator SpawnWave()
     {
+        //Enemy.health = health + (25 * waveIndex);
+        //Enemy.speed = speed + waveIndex;
         waveIndex++;
-
         for(int i = 0; i < waveIndex; i++)
         {
             SpawnEnemy();
