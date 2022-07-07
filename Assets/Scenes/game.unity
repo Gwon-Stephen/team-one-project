@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44047412, g: 0.4890766, b: 0.5692308, a: 1}
+  m_IndirectSpecularColor: {r: 0.44047445, g: 0.48907697, b: 0.56923115, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -13225,24 +13225,9 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'F to toggle camera lock!
-
-
-    Help fight the pollution! Place sustainable
-    energy towers.
-
-
-    Beat smog to generate power.
-
-    - [TBD] takes two hits
-    to beat the smog.
-
-    - [TBD] destroy smog in one hit.
-
-    - Solar panels generate
-    money passively.
-
-    - Turbines can snipe from long range.'
+  m_Text: "F to toggle camera lock!\n\nHelp fight the pollution! Place sustainable
+    energy towers.\n\nBeat smog to generate power.\n-Trees use pinecones \n- Solar
+    panels generate money\n- Turbines can blow away enemy from long range"
 --- !u!222 &1327163136
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -15834,9 +15819,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   standardTurretPrefab: {fileID: 2085947973910203655, guid: 9a586e113be500f4ca9086acac394b2d, type: 3}
-  missileLauncher: {fileID: 0}
-  cashGenerator: {fileID: 0}
-  sniper: {fileID: 0}
+  missileLauncher: {fileID: 3173716120054315218, guid: d07f4e11f0640254298c741819606866, type: 3}
+  cashGenerator: {fileID: 5880564457933785126, guid: dfe7e3b74213cc74395e34a161daa181, type: 3}
+  sniper: {fileID: 5446522116391807193, guid: 02dd73b823ced4e43ba7b8f8c99fc705, type: 3}
   buildEffect: {fileID: 1276064682605937768, guid: 9130cef73dac6a64da541ae7b6fdc411, type: 3}
 --- !u!114 &1650151062
 MonoBehaviour:
@@ -20343,7 +20328,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2065887672}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -443, y: -37.3, z: -422}
+  m_LocalPosition: {x: -443, y: -42.2, z: -422}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
