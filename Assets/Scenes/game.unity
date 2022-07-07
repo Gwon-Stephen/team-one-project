@@ -3637,7 +3637,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a7a0595f6f41b1b46aba9274b3d01c96, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b96e6f4d7c1199b41a39c5d949f0bfb9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8344,7 +8344,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a0c7091caa57e6445bdb8400a768e6e0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6cab7183839c24442aa9e5e1680898b5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8837,7 +8837,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 4beb055f07aaff244873dec698d0363e, type: 3}
-    m_FontSize: 20
+    m_FontSize: 15
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -8848,7 +8848,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: TREE
+  m_Text: Turbine
 --- !u!222 &895644664
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -9297,7 +9297,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Turbine
+  m_Text: Geothermal
 --- !u!222 &944228336
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -18541,7 +18541,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: 4beb055f07aaff244873dec698d0363e, type: 3}
-    m_FontSize: 20
+    m_FontSize: 15
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -18552,7 +18552,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: TREE2
+  m_Text: Hydroelec.
 --- !u!222 &1882400667
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -19505,7 +19505,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b96e6f4d7c1199b41a39c5d949f0bfb9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 562a2c4ad6c05ff49bd9189fc836e2c4, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
