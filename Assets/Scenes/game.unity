@@ -13225,9 +13225,24 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "F to toggle camera lock!\n\nHelp fight the pollution! Place sustainable
-    energy towers.\n\nBeat smog to generate power.\n-Trees use pinecones \n- Solar
-    panels generate money\n- Turbines can blow away enemy from long range"
+  m_Text: 'F to toggle camera lock!
+
+
+    Help fight the pollution! Place sustainable
+    energy towers.
+
+
+    Beat smog to generate power.
+
+    - Turbines take two hits
+
+    -
+    Solar panels generate money passively
+
+    - Hydroelectric launches water that
+    splashes
+
+    - Geothermal can hit from very far away.'
 --- !u!222 &1327163136
 CanvasRenderer:
   m_ObjectHideFlags: 0
